@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Octopus;
+    src: url(/fuentes/octopus_game/Octopus-Game.otf);
+}
+
+@font-face {
+    font-family: Avocado;
+    src: url(/fuentes/avocado_2/avocado.otf);
+}
+
+@font-face {
+    font-family: Pokemon;
+    src: url(/fuentes/pokemon/Pokemon\ Hollow.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #000;
+}
+
+body{
+    width: 750px;
+    height: 1000px;
+    background-color: rgb(196, 196, 255);
+    margin: auto;
+}
+
+
+#banner{
+    width: 250px;
+    height: 250px;
+    font-family: Octopus;
+    float: left;
+    background: #caffe0;
+    text-align: center;
+}
+
+#logo{
+    width: 250px;
+    height: 250px;
+    font-family: Avocado;
+    float: left;
+    background: #ffcaca;
+    text-align: center;
+}
+
+#login{
+    width: 250px;
+    height: 250px;
+    font-family: Pokemon;
+    float: right;
+    background: #ffcaff;
+    text-align: center;
+}
+
+.caja {
+    position: relative;
+    display: inline-block;
+}
+
+#uno {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+#dos {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+#tres {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+/*----------------------dos-------------------------------*/
+
+nav{
+    width: 750px;
+    height: 250px;
+    background: #3b6df9;
+    color: #fde84e;
+    font-family: Octopus;
+    font-size: 20px;
+    display: flow-root;
+}
+
+#inicio{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #ffcaff;
+}
+
+#producto{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #ff95ff;
+}
+
+#contacto{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: #ffeeff;
+}
+
+/*----------------------tres-------------------------------*/
+
+main{
+    width: 750px;
+    height: 250px;
+    background: #3bdcf9;
+    color: #fde84e;
+    font-family: Octopus;
+    font-size: 20px;
+    display: flow-root;
+}
+
+#hoy{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #8af7ff;
+}
+
+#novedades{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #b6faff;
+}
+
+#internacional{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: #c4fbff;
+}
+
+/*----------------------tres-------------------------------*/
+
+footer{
+    width: 750px;
+    height: 250px;
+    font-size: 30px;
+    background: #3bdcf9;
+    color: #fde84e;
+    font-family: Octopus;
+    font-size: 20px;
+    display: flow-root;
+}
+
+#creditos{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #c68aff;
+}
+
+#lugar{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #d4a9fc;
+}
+
+#correo{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: #e3c8fd;
+}
